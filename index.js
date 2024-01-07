@@ -7,8 +7,9 @@ function hasTargetSum(array, target) {
   }
 return false;
 }
+console.log(hasTargetSum([1,6,3,7,2,9,1], 12))
 /* 
-  Write the Big O time complexity of your function here
+ O(n2)
 */
 
 /* 
@@ -18,7 +19,9 @@ return false;
 */
 
 /*
-  Add written explanation of your solution here
+  we take the differece of the the first element to the target in the array
+  and assign it to a variable, then we compare that to each other member of 
+  the array to see if it matches
 */
 
 // You can run `node index.js` to view these console logs
